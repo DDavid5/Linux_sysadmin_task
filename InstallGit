@@ -1,0 +1,8 @@
+#process how I install git to the Raspbian
+sudo apt update
+sudo apt install git
+
+#Configuring git. Set up our personall information
+git config --global user.name "DDavid5"
+git config --global user.email "david.dopirak5@gmail.com"
+
