@@ -22,13 +22,15 @@
 
 11. Query the current default zone. Set the default zone to "dmz". Get a list of all available zones and send the output to a file zones.txt.
 
-12. Add port 8080/tcp. Verify by listing the ports currently listening or are active and append the output to zones.txt
+12. Install firewall and block port
 
-13. Forward the port 80/tcp to port 8080/tcp.
+13. Add port 8080/tcp. Verify by listing the ports currently listening or are active and append the output to zones.txt
 
-14. Change the APT mirror using the command line.
+14. Forward the port 80/tcp to port 8080/tcp.
 
-15. Install firewall 
+15. Change the APT mirror using the command line.
+
+16. Connect via SSH to another device
   > <strong>Note:</strong> 
   >  - All tasks must be done from the terminal.
   >  - All changes should persist across reboots
