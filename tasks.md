@@ -30,7 +30,11 @@
 
 15. Change the APT mirror using the command line.
 
-16. Connect via SSH to another device
+16. Install Apache, MySql, Php and check if they are running
+   
+17. Connect via SSH to another device
+
+18.   
   > <strong>Note:</strong> 
   >  - All tasks must be done from the terminal.
   >  - All changes should persist across reboots
