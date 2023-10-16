@@ -28,6 +28,7 @@
 
 14. Change the APT mirror using the command line.
 
+15. Install firewall 
   > <strong>Note:</strong> 
   >  - All tasks must be done from the terminal.
   >  - All changes should persist across reboots
