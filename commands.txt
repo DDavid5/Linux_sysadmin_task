@@ -43,3 +43,20 @@ echo alias uptime=/bin/uptime >> ~/.bashrc
 
 #Task10
 
+
+#Task11
+date +%Z
+timedatectl list-timezones >> timezones.txt    
+    
+#Task12
+sudo apt-get update
+sudo apt-get install ufw #instalacia firewallu
+sudo ufw enable #zapneme si firewall
+sudo ufw status verbose #overime si zapnutie firewallu
+
+#Task13
+ss -l >> timezones.txt
+sudo apt-get install net-tools #potrebne nainstalovat net-tools aby som mohol zistovat konfiguracie siete
+ss -na | grep :8080 #overim ci na porte 8080 uz nieco nieje
+sudo ufw allow 8080/tcp #povolime port 8080 tcp
+sudo ufw status #overime ci sme zapli port 8080 tcp
