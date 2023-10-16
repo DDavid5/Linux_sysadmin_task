@@ -60,3 +60,9 @@ sudo apt-get install net-tools #potrebne nainstalovat net-tools aby som mohol zi
 ss -na | grep :8080 #overim ci na porte 8080 uz nieco nieje
 sudo ufw allow 8080/tcp #povolime port 8080 tcp
 sudo ufw status #overime ci sme zapli port 8080 tcp
+
+#Task16
+sudo apt-get update #aktualizujeme repozitare
+sudo apt-get install apache2 #nainstalujeme apache
+systemctl status apache2 #overime ci je server spusteny, pripadne cez GUI a prehliadac ostestujeme pomocou IP, ci sa pripijime na server
+
